@@ -1,0 +1,348 @@
+{
+  "matches_played": 5,
+  "player_wins": 1,
+  "ai_wins": 4,
+  "base_difficulty": 0.84,
+  "total_observations": 122,
+  "q_updates": 771,
+  "markov_stats": {
+    "total_preds": 111,
+    "correct_preds": 80,
+    "accuracy": 0.7207
+  },
+  "markov_1st": {
+    "light": {
+      "light": 7.0797,
+      "heavy": 0.0333,
+      "block": 0.0072,
+      "dodge": 0.0,
+      "blind": 0.0147
+    },
+    "heavy": {
+      "light": 0.4629,
+      "heavy": 6.2062,
+      "block": 0.139,
+      "dodge": 0.0,
+      "blind": 0.2682
+    },
+    "block": {
+      "light": 0.1041,
+      "heavy": 1.411,
+      "block": 4.8013,
+      "dodge": 0.4046,
+      "blind": 0.2804
+    },
+    "dodge": {
+      "light": 0.0,
+      "heavy": 1.6471,
+      "block": 0.0,
+      "dodge": 3.915,
+      "blind": 0.0
+    },
+    "blind": {
+      "light": 1.7396,
+      "heavy": 0.86,
+      "block": 0.6361,
+      "dodge": 0.0,
+      "blind": 0.0
+    }
+  },
+  "markov_2nd": {
+    "light": {
+      "light": {
+        "light": 7.0567,
+        "heavy": 0.0273,
+        "block": 0.0159,
+        "dodge": 0.0,
+        "blind": 0.0198
+      },
+      "heavy": {
+        "light": 0.0,
+        "heavy": 1.86,
+        "block": 0.7396,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "block": {
+        "light": 0.0,
+        "heavy": 0.0,
+        "block": 1.0,
+        "dodge": 0.0,
+        "blind": 0.86
+      },
+      "dodge": {
+        "light": 0.0,
+        "heavy": 0.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "blind": {
+        "light": 1.0,
+        "heavy": 0.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      }
+    },
+    "heavy": {
+      "light": {
+        "light": 1.86,
+        "heavy": 0.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "heavy": {
+        "light": 0.0,
+        "heavy": 6.1006,
+        "block": 0.2875,
+        "dodge": 0.0,
+        "blind": 0.3479
+      },
+      "block": {
+        "light": 0.0,
+        "heavy": 0.7396,
+        "block": 2.4961,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "dodge": {
+        "light": 0.0,
+        "heavy": 0.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "blind": {
+        "light": 1.0,
+        "heavy": 0.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      }
+    },
+    "block": {
+      "light": {
+        "light": 1.0,
+        "heavy": 0.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "heavy": {
+        "light": 1.0,
+        "heavy": 0.7396,
+        "block": 0.86,
+        "dodge": 0.0,
+        "blind": 0.6361
+      },
+      "block": {
+        "light": 0.2213,
+        "heavy": 1.44,
+        "block": 4.1902,
+        "dodge": 0.4704,
+        "blind": 0.3479
+      },
+      "dodge": {
+        "light": 0.0,
+        "heavy": 1.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "blind": {
+        "light": 0.0,
+        "heavy": 1.0,
+        "block": 0.86,
+        "dodge": 0.0,
+        "blind": 0.0
+      }
+    },
+    "dodge": {
+      "light": {
+        "light": 0.0,
+        "heavy": 0.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "heavy": {
+        "light": 1.0,
+        "heavy": 1.5996,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "block": {
+        "light": 0.0,
+        "heavy": 0.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "dodge": {
+        "light": 0.0,
+        "heavy": 1.4046,
+        "block": 0.0,
+        "dodge": 3.2531,
+        "blind": 0.0
+      },
+      "blind": {
+        "light": 0.0,
+        "heavy": 0.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      }
+    },
+    "blind": {
+      "light": {
+        "light": 0.86,
+        "heavy": 1.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "heavy": {
+        "light": 0.0,
+        "heavy": 1.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "block": {
+        "light": 0.0,
+        "heavy": 0.0,
+        "block": 1.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "dodge": {
+        "light": 0.0,
+        "heavy": 0.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      },
+      "blind": {
+        "light": 0.0,
+        "heavy": 0.0,
+        "block": 0.0,
+        "dodge": 0.0,
+        "blind": 0.0
+      }
+    }
+  },
+  "q_fast": {
+    "light": {
+      "light": 0.3181,
+      "heavy": 0.0914,
+      "block": 0.2174,
+      "dodge": 0.2432,
+      "blind": 0.0744
+    },
+    "heavy": {
+      "light": 0.4608,
+      "heavy": 0.163,
+      "block": 0.3386,
+      "dodge": 0.0698,
+      "blind": 0.3495
+    },
+    "block": {
+      "light": -0.1228,
+      "heavy": -0.0789,
+      "block": -0.0589,
+      "dodge": -0.0905,
+      "blind": 0.1583
+    },
+    "dodge": {
+      "light": 0.4489,
+      "heavy": 0.0,
+      "block": -0.1017,
+      "dodge": 0.2536,
+      "blind": 0.437
+    },
+    "blind": {
+      "light": 0.122,
+      "heavy": 0.0,
+      "block": 0.081,
+      "dodge": 0.42,
+      "blind": 0.0898
+    }
+  },
+  "q_slow": {
+    "light": {
+      "light": 0.3023,
+      "heavy": 0.0694,
+      "block": 0.1915,
+      "dodge": 0.1246,
+      "blind": 0.3139
+    },
+    "heavy": {
+      "light": 0.5558,
+      "heavy": 0.1308,
+      "block": 0.2128,
+      "dodge": -0.0556,
+      "blind": 0.3411
+    },
+    "block": {
+      "light": -0.1056,
+      "heavy": 0.0392,
+      "block": -0.0447,
+      "dodge": -0.0738,
+      "blind": 0.1997
+    },
+    "dodge": {
+      "light": 0.456,
+      "heavy": 0.0,
+      "block": -0.086,
+      "dodge": 0.0656,
+      "blind": 0.3399
+    },
+    "blind": {
+      "light": 0.0,
+      "heavy": 0.0,
+      "block": 0.0344,
+      "dodge": 0.0,
+      "blind": 0.0775
+    }
+  },
+  "visit_counts": {
+    "light": {
+      "light": 34,
+      "heavy": 11,
+      "block": 115,
+      "dodge": 90,
+      "blind": 30
+    },
+    "heavy": {
+      "light": 74,
+      "heavy": 7,
+      "block": 65,
+      "dodge": 42,
+      "blind": 14
+    },
+    "block": {
+      "light": 34,
+      "heavy": 3,
+      "block": 72,
+      "dodge": 34,
+      "blind": 10
+    },
+    "dodge": {
+      "light": 12,
+      "heavy": 0,
+      "block": 63,
+      "dodge": 36,
+      "blind": 16
+    },
+    "blind": {
+      "light": 2,
+      "heavy": 0,
+      "block": 3,
+      "dodge": 1,
+      "blind": 3
+    }
+  }
+}
